@@ -11,20 +11,20 @@ The ImageView is a control which displays an image.
 An instance of an ImageView is created with a file path: 
 
 ~~~{.cs}
-imageView = new ImageView("./images/gallery-3.jpg");
+imageView = new ImageView(DirectoryInfo.Resource + "images/gallery-3.jpg");
 ~~~
 
 or by the _Url_ property:
 
 ~~~{.cs}
 imageView = new ImageView();
-imageView.ResourceUrl = "./images/gallery-3.jpg";
+imageView.ResourceUrl = DirectoryInfo.Resource + "images/gallery-3.jpg";
 ~~~
 
 To subsequently change an image use the _SetImage_ method:
 
 ~~~{.cs}
-imageView.SetImage("./images/gallery-4.jpg");
+imageView.SetImage(DirectoryInfo.Resource + "images/gallery-4.jpg");
 ~~~
 
 This figure is displayed via an ImageView:
