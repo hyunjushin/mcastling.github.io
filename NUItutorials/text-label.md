@@ -324,7 +324,6 @@ The scroll direction is chosen automatically with the following rules:
 | ------------ | ------------ |
 | single-lined | scroll left when the text is Left to Right (LTR) |
 |              | or scroll right if text is Right to Left (RTL). |
-| multi-lined  | scroll upward |
 
 <a name="7"></a>
 ### Mark-up Style
