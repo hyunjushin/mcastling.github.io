@@ -404,7 +404,7 @@ prevButton.FlexMargin = new Vector4(10.0f, 10.0f, 10.0f, 10.0f); // set 10 pixel
 toolBar.Add(prevButton);
 
 // Set the button text
-PropertyMap labelMap;
+PropertyMap labelMap = new PropertyMap();
 labelMap.Add("text", new PropertyValue("Prev"));
 labelMap.Add("textColor", new PropertyValue(Color.Black));
 prevButton.Label = labelMap;
