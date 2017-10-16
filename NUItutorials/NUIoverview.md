@@ -9,7 +9,7 @@ NUI is a C# toolkit on top of the DALi graphics library, which is written in C++
 
 ## NUI 
 
-NUI is a cross platform library for creating applications with rich GUI. These applications are run on a
+NUI is a rich GUI library for creating 2D or 3D applications. These applications are run on a
 range of Tizen devices such as TV's and wearables. NUI is built on a multi-threaded architecture enabling
 realistic smooth animations. In addition a range of optimisation techniques are utilised to obtain low CPU and GPU
 usage, further increasing graphics performance.
